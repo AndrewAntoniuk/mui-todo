@@ -15,6 +15,9 @@ function App() {
         height: '100vh',
         overflow: 'hidden',
         textAlign: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-evenly',
       }}
     >
       <Weather />

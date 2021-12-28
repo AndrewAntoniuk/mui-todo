@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
+// This is the key you copied from step 2.
 const ACCESS_KEY = process.env.REACT_APP_ACCESS_KEY;
 const API_URL = `https://api.unsplash.com/search/photos?client_id=${ACCESS_KEY}`;
 

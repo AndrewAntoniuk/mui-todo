@@ -51,6 +51,7 @@ export const Weather = () => {
         bgcolor: 'rgba(0,0,0, 0.3)',
         transform: !Object.keys(weather).length ? null : 'rotateX(360deg)',
         transition: 'transform .7s',
+        justifyContent: 'center',
       }}
     >
       {!Object.keys(weather).length ? (

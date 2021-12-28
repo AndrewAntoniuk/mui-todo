@@ -71,9 +71,9 @@ export const Unsplash = () => {
             color: 'white',
             textAlign: 'center',
             width: 'fit-content ',
-            position: 'absolute',
-            bottom: 10,
-            right: 10,
+            mt: '1vh',
+            alignSelf: 'end',
+
             p: 1,
           }}
         >
